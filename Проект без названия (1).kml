@@ -2,7 +2,8 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document id="1QgGEq82Z_7QOQ_f0o9VhxDa0Tu4WgvI1">
 	<name>Проект без названия</name>
-	<gx:CascadingStyle kml:id="__managed_style_204D6628D339D7AEE837">
+	<gx:CascadingStyle kml:id="__managed_style_0441C07ADD39D7B4CF3C">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.1.0.0/card_template.kml#main</styleUrl>
 		<Style>
 			<IconStyle>
 				<scale>1.8</scale>
@@ -24,7 +25,8 @@
 			</BalloonStyle>
 		</Style>
 	</gx:CascadingStyle>
-	<gx:CascadingStyle kml:id="__managed_style_15E0C2263E39D7AEE837">
+	<gx:CascadingStyle kml:id="__managed_style_0A925228BE39D7B4CF3B">
+		<styleUrl>https://earth.google.com/balloon_components/base/1.1.0.0/card_template.kml#main</styleUrl>
 		<Style>
 			<IconStyle>
 				<scale>1.5</scale>
@@ -46,18 +48,19 @@
 			</BalloonStyle>
 		</Style>
 	</gx:CascadingStyle>
-	<StyleMap id="__managed_style_0B5318C7C439D7AEE837">
+	<StyleMap id="__managed_style_0B75C51F7839D7B4CF39">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#__managed_style_15E0C2263E39D7AEE837</styleUrl>
+			<styleUrl>#__managed_style_0A925228BE39D7B4CF3B</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#__managed_style_204D6628D339D7AEE837</styleUrl>
+			<styleUrl>#__managed_style_0441C07ADD39D7B4CF3C</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Placemark id="04A8E1F03D39D7AEC65C">
-		<name>Метка без названия</name>
+		<name>Тествоая точкаа</name>
+		<description><![CDATA[<div>Тестовая метка<br></div>]]></description>
 		<LookAt>
 			<longitude>90.96273456450697</longitude>
 			<latitude>53.4561099464899</latitude>
@@ -68,7 +71,7 @@
 			<range>98603.99744426193</range>
 			<altitudeMode>absolute</altitudeMode>
 		</LookAt>
-		<styleUrl>#__managed_style_0B5318C7C439D7AEE837</styleUrl>
+		<styleUrl>#__managed_style_0B75C51F7839D7B4CF39</styleUrl>
 		<Point>
 			<coordinates>90.96273456450697,53.4561099464899,-7.073241992117119e-10</coordinates>
 		</Point>
