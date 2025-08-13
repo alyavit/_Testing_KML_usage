@@ -2,6 +2,58 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document id="1QgGEq82Z_7QOQ_f0o9VhxDa0Tu4WgvI1">
 	<name>Проект без названия</name>
+	<gx:CascadingStyle kml:id="__managed_style_22442D37D539D7C44D70">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff6b7900</color>
+				<width>1.5</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>809f3f30</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0EED3B04C039D7C44D70">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_1057CBF94939D7C44D70</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_22442D37D539D7C44D70</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_1057CBF94939D7C44D70">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff6b7900</color>
+			</LineStyle>
+			<PolyStyle>
+				<color>809f3f30</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
 	<gx:CascadingStyle kml:id="__managed_style_0441C07ADD39D7B4CF3C">
 		<styleUrl>https://earth.google.com/balloon_components/base/1.1.0.0/card_template.kml#main</styleUrl>
 		<Style>
@@ -75,6 +127,29 @@
 		<Point>
 			<coordinates>90.96273456450697,53.4561099464899,-7.073241992117119e-10</coordinates>
 		</Point>
+	</Placemark>
+	<Placemark id="027A27C91639D7C40F78">
+		<name>Геозона из КМЛ</name>
+		<LookAt>
+			<longitude>90.86477649782478</longitude>
+			<latitude>53.43774345123308</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>30</gx:fovy>
+			<range>72947.77869447701</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0EED3B04C039D7C44D70</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						90.87275867301605,53.43724463599219,0 90.81573710966472,53.37934301029313,0 90.92138147347748,53.37415970068922,0 90.97051994637503,53.41212258695536,0 90.87275867301605,53.43724463599219,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
 	</Placemark>
 </Document>
 </kml>
